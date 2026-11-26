@@ -31,7 +31,7 @@ function SagaMultiverso(){
 
                 <CardFilmes imagem={deadpool} nome="Deadpool & Wolverine (2024)"></CardFilmes>
 
-                <CardFilmes imagem={capitao4} nome="Thunderbolts* (2025)"></CardFilmes>
+                <CardFilmes imagem={capitao4} nome="Capitão América: Admirável Mundo Novo (2025)"></CardFilmes>
 
                 <CardFilmes imagem={thunderbolts} nome="Thunderbolts* (2025)"></CardFilmes>
 
