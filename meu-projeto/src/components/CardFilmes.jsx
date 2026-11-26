@@ -1,7 +1,9 @@
+import styles from "../css/CardFilmes.module.css"
+
 function CardFilmes({imagem, nome}){
     return(
-        <div>
-            <img src={imagem} alt={nome} />
+        <div className={styles.card}>
+            <img className={styles.imagem} src={imagem} alt={nome} />
             <h2>{nome}</h2>
         </div>
         

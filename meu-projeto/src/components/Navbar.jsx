@@ -3,9 +3,9 @@ import styles from "../css/Navbar.module.css"
 
 function Navbar(){
     return(
-        <nav className={styles.Navbar}>
-            <Link to="/">Home</Link>
-            <Link to="sagaInfinito">Saga do Infinito</Link>
+        <nav className={styles.navbar}>
+            <Link className={styles.link} to="/">Home</Link>
+            <Link className={styles.link} to="sagaInfinito">Saga do Infinito</Link>
         </nav>
     );
 };
