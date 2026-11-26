@@ -6,7 +6,7 @@ import styles from "../css/Home.module.css"
 function Home(){
     return(
         <div className={styles.home}>
-            <h1>Guia Preparatório de Vingadores:  Doutor Destino</h1>
+            <h1 className={styles.titulo}>Guia Preparatório de <i>Vingadores: Doutor Destino</i></h1>
             <p>Este guia vai esclarecer quais filmes e séries serão essenciais para assistir o próximo lançamento da <i>Marvel</i>, "Vingadores: Doutor Destino", dia 16 de dezembro de 2026.</p>
             <p>O guia está separado pelas duas sagas do <i>Universo Cinematográfico da Marvel</i> (no topo do site), a Saga do Infinito e a Saga do Multiverso, e aqui embaixo estão filmes que não fazem parte das duas sagas, mas são importantes para o entendimento do filme:</p>
 

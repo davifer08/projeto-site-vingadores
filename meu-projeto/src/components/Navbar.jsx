@@ -6,6 +6,7 @@ function Navbar(){
         <nav className={styles.navbar}>
             <Link className={styles.link} to="/">Home</Link>
             <Link className={styles.link} to="sagaInfinito">Saga do Infinito</Link>
+            <Link className={styles.link} to="sagaMultiverso">Saga do Multiverso</Link>
         </nav>
     );
 };

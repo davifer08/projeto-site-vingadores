@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import SagaInfinito from './pages/SagaInfinito';
 import Home from './pages/Home';
 import Rodape from './components/Rodape';
+import SagaMultiverso from './pages/SagaMultiverso';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/sagaInfinito" element={<SagaInfinito />}></Route>
+        <Route path="/sagaMultiverso" element={<SagaMultiverso />}></Route>
+
       </Routes>
 
       <Rodape></Rodape>
